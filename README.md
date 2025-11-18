@@ -1,88 +1,158 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
-
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
-
-## ✨ O que é Vibe Coding
-
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
-
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
-
-## 🎯 Desafio
-
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
-
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
-
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
-
-## 🪄 Etapas do Desafio
-
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
-
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
-
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
-
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
-
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
-
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
-
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
-
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
-
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
-
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
-
-### 2. Explorando o Lovable na Prática
-
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
-
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
-
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+# 💸 App de Finanças Pessoais com Vibe Coding finsnças IA
 
 ### 3. Entregando o Desafio na DIO
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+PRD Refinado no COPILOT WEB:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+```Markdown
+# PRD – App de Finanças Pessoais com Assistente Financeiro de IA (Design Universal + Linguagem Natural)
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+Este aplicativo foi pensado para ajudar pessoas a organizar o dinheiro de forma simples e prática.  
+Ele permite registrar ganhos e gastos de forma intuitiva, aplicar automaticamente a regra dos 30% sobre qualquer entrada de valor, criar sonhos e metas financeiras, e receber dicas fáceis para começar a investir sem complicação.  
+O diferencial é um **assistente financeiro com inteligência artificial**, que conversa em linguagem natural, entende o contexto do usuário e sugere ações personalizadas.
+
+## Objetivo
+Ajudar pessoas a cuidar melhor do dinheiro sem complicação.  
+O assistente fala de forma clara e natural, mostrando quanto guardar, oferecendo dicas simples e ajudando a planejar sonhos.
+
+## Público
+- Pessoas que têm dificuldade em controlar gastos.  
+- Quem nunca usou aplicativos de finanças.  
+- Quem quer começar a investir de forma descomplicada.  
+
+## Funcionalidades
+
+### Assistente Financeiro com IA
+- Conversa em linguagem natural com o usuário.  
+- Entende entradas de ganhos e gastos.  
+- Sugere guardar 30% de cada entrada automaticamente.  
+- Dá dicas personalizadas com base no comportamento financeiro.  
+- Responde perguntas simples como:  
+  - "Quanto já guardei este mês?"  
+  - "Posso gastar mais em lazer?"  
+
+### Sonhos de Investimento
+- O usuário escreve seus sonhos, como comprar uma casa ou fazer uma viagem.  
+- O assistente responde: "Para realizar esse sonho, você precisa guardar R$ X por mês."  
+
+### Dicas Simples
+- Textos curtos e conversacionais.  
+- Exemplos:  
+  - "Primeiro, guarde para emergências."  
+  - "Evite dívidas no cartão, elas crescem rápido."  
+
+### Guardar 30% de Qualquer Entrada
+- O usuário informa qualquer valor que entra, seja salário, freela ou presente.  
+- O assistente responde naturalmente: "Você recebeu R$ 200, guarde R$ 60 para o futuro."  
+- Mostra o progresso com frases simples: "Você já guardou R$ Y este mês."  
+
+### Ganhos e Gastos Intuitivos
+- Campos simples para registrar "Ganhos" e "Gastos".  
+- O assistente traduz em linguagem natural: "Você gastou R$ 50 em transporte, sobram R$ 150."  
+- Visualização intuitiva com frases e gráficos fáceis de entender.  
+
+## Requisitos
+
+### Funcionais
+- Cadastro rápido (nome e renda).  
+- Criar e editar sonhos.  
+- Cálculo automático de 30% sobre qualquer entrada.  
+- Registro intuitivo de ganhos e gastos.  
+- Dicas curtas em linguagem natural.  
+- Assistente de IA integrado para conversas e sugestões.  
+- Tela inicial simples com tudo em um só lugar.  
+
+### Não Funcionais
+- Design universal (acessível para todos).  
+- Linguagem natural e simples.  
+- Rápido e seguro.  
+- Funciona em Android e iOS.  
+
+## Sucesso
+- Quantos usuários criam pelo menos um sonho.  
+- Quantos guardam 30% de cada entrada.  
+- Quantos registram ganhos e gastos regularmente.  
+- Quantos interagem com o assistente de IA.  
+- Quantos leem e entendem as dicas sem esforço.  
+
+## Roadmap
+- MVP: entradas de valor + cálculo de 30% + sonhos + registro de ganhos e gastos com assistente de IA básico.  
+- Versão 2: dicas simples e conversacionais com IA mais personalizada.  
+- Versão 3: notificações inteligentes e acessibilidade avançada (voz, contraste, fontes).  
+
+```
+
+Interações com o Loveble:
+
+> crie um app de finanças pessoais de acordo com o seguinte PRD {PRD}
+
+> sim {Gostaria que eu continue para finalizar esses últimos ajustes?}
+
+> quando se falar em ganhos e gastos ao assistente financeiro esse deve colocar os valores no dashboard e perguntar se vai guardar os 30%, se a resposta for sim também colocar no dashboard e for não não colocar
+  
+> o assistente deve registrar os valores ganhos em total ganhos no dashboard, os valores gastos no total de gastos no dashboard, o economizado não deve ser automatico mas sim perguntar se será guardado esse valor ou não, se positivo deve ser contabilizado em economizado, se não deve ficar em negativo. a meta de economia deve ser em relação ao valor do sonho, o assistente deve contabilizar os sonhos e as transações
+
+> quando for falado em gastos para o assistente esse deve registrar em gastos nas transações e no total gastos do dashboard, deve ter um registro no dashboard de total em caixa contabilizando o total de ganhos subtraindo o total de gastos, o assistente deve perguntar sobre o desejo de economizar os 30% se a resposta for positiva ele deve contabilizar em economizado e se for negativa ele deve subtrair do economizado.
+
+>  preciso que tenha um botão onde se possa ser feita alterações nos valores contidos no dashboard.
+preciso que o assistente sempre que for informado que teve algum ganho de valores se gostaria de guardar 30%.
+preciso que o assistente sempre que for informado que se quer guardar 30% do valor faça o preenchimento no dashboard, tanto do valor ganho quanto do valor guardado.
+preciso que o assistente sempre que for informado que não se quer guardar os 30% responda o porque é importante ter uma reserva de emergencia.
+preciso que o assistente sempre que for informado que se quer guardar 30% de dicas do como pode ser investido este valor.
+preciso que o assistente sempre que for informado de um sonho pergunte o valor do sonho e coloque as informações na aba sonho.
+preciso que sempre que se diga que gastou o valor do economizado seja subtraido o valor no dashboard.
+preciso que o assistente fique fixo no dashboard.
+preciso que tenha um botão em transações onde se possa ter acesso ao extrato do periodo selecionado.
+preciso que todos os valores sejam atualizados em tempo real.
+
+> preciso que em cada caixa tenha um botão de editar valores no dashboard, preciso que os valores na caixa economizado possam ser subtraidos e atualizados. preciso que o assistente fique aberto na parte inferior do dashboard e não em uma outra aba.
+
+Resultado Final no Lovable: https://dinheiro-amigo-ia.lovable.app/dashboard
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0c2a9e28-c31a-432b-b172-1dca5ad5fa15" />
+
+## Principais Funcionalidades do FinançasIA
+### Assistente Financeiro com IA
+Conversa em Linguagem Natural: Interage de forma humana, entendendo o contexto dos ganhos e gastos.
+
+Sugestão Personalizada: Oferece dicas e ações com base no comportamento financeiro do usuário.
+
+Respostas Imediatas: Responde a consultas simples (ex: "Quanto já guardei este mês?", "Posso gastar mais em lazer?").
+
+### Metas e Sonhos de Investimento
+Criação de Sonhos: Permite registrar objetivos financeiros de longo prazo (ex: casa, viagem).
+
+Cálculo de Metas: A IA calcula e informa o valor necessário para guardar mensalmente.
+
+Monitoramento de Progresso: Exibe o progresso em relação à "Meta de Economia (Total dos Sonhos)" no Dashboard.
+
+### Regra de Economia Automática (30%)
+Cálculo Automático: Aplica a regra de guardar 30% de qualquer valor de entrada (salário, freela, etc.).
+
+Feedback Simples: Informa o valor sugerido para guardar em linguagem fácil ("Você recebeu R$ 200, guarde R$ 60...").
+
+Registro Visível: Exibe o total já "Economizado" no Dashboard.
+
+### Gestão Intuitiva de Ganhos e Gastos
+Registro Simplificado: Campos claros para registrar "Ganhos" e "Gastos".
+
+Tradução em Frases: O assistente traduz os registros para linguagem natural ("Você gastou R$ 50, sobram R$ 150.").
+
+Dashboard Centralizado: Tela inicial simples com indicadores chave: Ganhos, Gastos, Economizado, Sonhos Ativos e Total em Caixa.
+
+### Dicas Simples de Educação Financeira
+Conteúdo Conversacional: Textos curtos e diretos para descomplicar a vida financeira (ex: "Guarde primeiro para emergências.").
+
+## reflexão sobre o processo 
+### O que funcionou bem?  
+A interação com o copilot foi bem satisfatória, eu resolvi criar o PRD do zero apenas com uma ideia simples e fui refinando colocando mais informações, o que foi bem legal.
+
+### O que não funcionou como o esperado?
+Quando foi levado o PRD para o Lovable deu bastante problema, tanto que não consegui fazer a IA do assistente fazer as atualizações direito nos valores, também não consegui que os valores no quesito Economizado fossem retirados, nem por IA e nem manualmente, a IA do app também não coloca os valores muito certos, as vezes entendendo como sonhos, as vezes colocando valor duplicado. Todavia no fim ela perguntava sobre a previsão de economia e porque de ser uma boa. 
+
+### O que aprendeu sobre conversar com IAs?
+Aprendi que quanto mais imputs você der mais facil a interação e o entendimento da IA. Todavia tem dias que é meio dificil e a IA não entende, Você não entende, ninguém entende e é isso.
+
 
 ## 💬 Conclusão
 
